@@ -17,6 +17,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun makeColored(view: View) {
+        val box_three_text = findViewById<TextView>(R.id.box_three_text)
+        val box_four_text = findViewById<TextView>(R.id.box_four_text)
+        val box_five_text = findViewById<TextView>(R.id.box_five_text)
+
         when (view.id) {
 
 
